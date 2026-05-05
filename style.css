@@ -60,8 +60,6 @@ a:active { color: #c0392b; }
   border-right: 1px solid #e5e7eb;
   position: sticky;
   top: 0;
-  max-height: 100vh;
-  overflow-y: auto;
 }
 .nav-label {
   display: block;
@@ -388,9 +386,8 @@ a.cite:hover { text-decoration: underline; }
 
 /* ==== responsive ==== */
 
-/* Desktop: force nav-details always open, hide the summary toggle */
+/* Desktop: hide the summary toggle (content always visible via open attribute) */
 @media (min-width: 701px) {
-  .nav-details > :not(summary) { display: block !important; }
   .nav-summary { display: none; }
 }
 
