@@ -290,6 +290,16 @@ a.theme-name:hover { color: #2e7dbf; text-decoration: none; }
 .news-list li:last-child { border-bottom: none; }
 .news-text { flex: 1; }
 a.news-link { font-size: 12px; margin-left: 4px; font-weight: 600; }
+/* Past news: collapsed below the current items */
+.news-archive { margin-top: 4px; border-top: 1px solid #e5e7eb; }
+.news-archive-summary {
+  cursor: pointer;
+  padding: 8px 0;
+  font-size: 12px;
+  font-weight: 600;
+  color: #2e7dbf;
+}
+.news-archive-summary:hover { color: #1a3a5c; }
 .news-date {
   flex-shrink: 0;
   font-size: 11px;
